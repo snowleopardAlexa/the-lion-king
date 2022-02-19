@@ -1,0 +1,135 @@
+.title {
+  margin-top: -50px;
+}
+  
+  /* ABOUT */
+  /* section about */
+
+  #about {
+    padding: 20px;
+  }
+
+  .wrapper {
+   margin-left: -30px;
+  }
+
+  .about > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1.5rem;
+  }
+  
+  .about > ul > li {
+    border: 2px solid var(--black-city-smoke);
+    border-radius: .5rem;
+    list-style-type: none;
+  }
+
+  .img-about {
+    width: 100%;
+    height: 100%;
+}
+  
+  .about > ul > li > figure {
+    max-height: 220px;
+    overflow: hidden;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    position: relative;
+  }
+  
+  .about > ul > li > figure > img {
+    width: 100%;
+  }
+  
+  .about > ul > li > figure > figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,.7);
+    width: 100%;
+    font-family: 'Lion King';
+    letter-spacing: 2px;
+  }
+  
+  .about> ul > li > figure > figcaption > h3 {
+    color: var(--polar-bear);
+    padding: .75rem;
+    font-size: 1.25rem;
+  }
+  
+  .about > ul > li > p {
+    line-height: 1.5;
+    padding: 1rem .75rem;
+    color: var(--polar-bear);
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .about > ul > li > a {
+    padding: .5rem 1rem;
+    margin: .5rem;
+}
+
+.title-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  font-family: 'Cinzel';
+  font-size: 2.5rem;
+  color: var(--polar-bear);
+}
+
+.about ul li .subtitle-about {
+   font-family: 'Lion King';
+   text-align: center;
+   font-size: 1.6rem;
+   margin-top: 30px;
+}
+
+.about ul li .text-about {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.about ul li .text-timeline {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+/********* RESPONSIVE VIEW **********/
+
+/********** SMALL SCREEN **********/
+
+@media only screen and (min-width: 375px) and (max-width: 765px) { 
+
+  .title-row {
+    margin-top: 120px;
+    font-size: 1.5rem;
+}
+
+  .about ul li .subtitle-about {
+    font-size: 1.3rem;
+  }
+
+  .about ul li .text-about {
+    font-size: 1rem;
+ }
+
+  .about ul li .text-timeline {
+    font-size: 1rem;
+ }
+
+  .about> ul > li > figure > figcaption > h3 {
+    font-size: 1.1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+

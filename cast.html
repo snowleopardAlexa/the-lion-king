@@ -1,0 +1,289 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"  content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="keywords" content="the lion king, lions, kings, simba, nala, scar, mufasa, timon, pumba, about, games">
+        <meta name="description" content="The Lion King World">
+        <!--bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="css/main.css" rel="stylesheet" />
+        <link href="css/cast.css" rel="stylesheet" />
+        <!--bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!--font awesome-->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <title>The Lion King - Cast</title>
+    </head>
+    <body id="bg">
+
+<!--NAVBAR-->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+  <div class="container-fluid mt-2 mb-2">
+    <a class="navbar-brand" href="index.html">The Lion King</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-light" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="characters.html">Characters</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="active" href="cast.html">Cast</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Tickets</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            More
+          </a>
+          <ul class="dropdown-menu mt-2" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item text-light bg-transparent" href="gallery.html">Gallery</a></li>
+            <li><a class="dropdown-item text-light bg-transparent" href="music.html">Music</a></li>
+            <li><a class="dropdown-item text-light bg-transparent" href="movies.html">Movies</a></li>
+            <!--<li><a class="dropdown-item text-light bg-transparent" href="#">Store</a></li>-->
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>  
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">The Lion King Tickets</h5>
+        <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="ticket-card">
+              <h1 class="title">GET THE TICKETS TO THE MOVIE</h1>
+              <p class="subtitle">The legend returns July 19</p>
+              <p class="text">
+                  Buy a few tickets and get the discount of 20%! 
+              </p>
+              <img class="poster-movie-img" src="img/photos/poster.jpeg" alt="movie poster">
+              <button class="btn-search-tickets">SEARCH TICKETS</button>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--CAROUSEL CAST-->
+<div class="carousel-cast" id="carousel-cast">
+    <div class="images">
+        <input type="radio" name="slide" id="img1" class="dot-1" checked>
+        <input type="radio" name="slide" id="img2">
+        <input type="radio" name="slide" id="img3">
+        <input type="radio" name="slide" id="img4">
+
+        <img src="img/photos/simbacast.jpg" class="cast-img--1" alt="Simba">
+        <img src="img/photos/nalacast.jpg" class="cast-img--2" alt="Nala">
+        <img src="img/photos/scarcast.jpg" class="cast-img--3" alt="Scar">
+        <img src="img/photos/timonpumbazazu.jpg" class="cast-img--4" alt="Timon, Pumbaa, Zazu">
+    </div>
+    <div class="dots">
+        <label class="label-dots" for="img1" checked></label>
+        <label class="label-dots" for="img2"></label>
+        <label class="label-dots" for="img3"></label>
+        <label class="label-dots" for="img4"></label>
+    </div>
+</div>
+
+<!--CAROUSEL CAST CARDS-->
+<div class="carousel">
+  <div class="carousel-container">
+    <input type="radio" name="dot" id="one">
+    <input type="radio" name="dot" id="two">
+    <div class="main-card">
+      <div class="slider-cards">
+        <div class="slider-card">
+         <div class="slider-content">
+           <div class="slider-img">
+            <img src="img/photos/blackbackground.jpg" alt="">
+           </div>
+           <div class="slider-details">
+             <div class="name">Donald Glover</div>
+             <div class="character">Simba</div>
+           </div>
+           <div class="desc">
+            <p>Simba is the protagonist of Disney's 1994 animated feature film, The Lion King. He is the son of Mufasa and Sarabi, who was destined to rule the Pride Lands, as king. When Mufasa was murdered by his treacherous brother, Scar, Simba was exiled from the Pride Lands after his uncle blamed him for his father's death. He finds refuge in a jungle oasis with Timon and Pumbaa, but when the Pride Lands fall to disarray during his absence. With the kingdom in peril, Simba is forced to confront his troubled past and take his place in the "Circle of Life".</p>
+           </div>
+         </div>
+        </div>
+        <div class="slider-card">
+         <div class="slider-content">
+           <div class="slider-img">
+            <img src="img/photos/blackbackground.jpg" alt="">
+           </div>
+           <div class="slider-details">
+             <div class="name">Beyoncé</div>
+             <div class="character">Nala</div>
+           </div>
+           <div class="desc">
+            <p>Nala is the deuteragonist of Disney's 1994 animated feature film, The Lion King. She is the lifelong best friend of Simba, prince of the Pride Lands. When the kingdom is taken over by Scar and his hyena henchmen, Nala rebels against their reign. Nala escapes from the Pride Rock and sets up for a long journey into unknown. She finds herself in the jungle, far away from home, and there she meets a lion who reminds her of Simba. Within a split second she recognizes her best friend and she convinces him that he's the only true king and that she should go back to the Pride Land and fight for the throne. </p>
+           </div>
+         </div>
+        </div>
+        <div class="slider-card">
+         <div class="slider-content">
+           <div class="slider-img">
+            <img src="img/photos/blackbackground.jpg" alt="">
+           </div>
+           <div class="slider-details">
+             <div class="name">Chiwetel Ejiofor</div>
+             <div class="character">Scar</div>
+           </div>
+           <div class="desc">
+             <p>Scar is the main antagonist of Disney's 1994 animated feature film, The Lion King. As the brother of Mufasa and second-born prince of the Pride Lands, Scar was next in line to assume the throne as king. However, his chances were lost at the birth of his nephew, Simba. This embittered Scar with jealousy and a sense of entitlement, prompting him to develop a regicidal plot to take over the kingdom, with the aid of his hyena henchmen. After claiming the throne, Scar becomes a bad ruler, and his pride suffers famine. He does not listen to the advices of the elder lions and he ruins the kingdom.</p>
+           </div>
+         </div>
+        </div>
+      </div>
+      <div class="slider-cards">
+        <div class="slider-card">
+         <div class="slider-content">
+           <div class="slider-img">
+            <img src="img/photos/blackbackground.jpg" alt="">
+           </div>
+           <div class="slider-details">
+             <div class="name">Billy Eichner</div>
+             <div class="character">Timon</div>
+           </div>
+           <div class="desc">
+             <p>Timon is a major character in Disney's 1994 animated feature film The Lion King and the protagonist of the 2004 film The Lion King 1½. He is a wisecracking meerkat and the best friend of Pumbaa. Though he originates from an industrious family, Timon lives an easygoing lifestyle of grub-eating and sleeping, under a "problem-free philosophy" called Hakuna Matata. Despite his small size, he is very brave and dedicated friend. He helps Simba in the fight for the throne and stays at his side as the member of his royal family. </p>
+           </div>
+         </div>
+        </div>
+        <div class="slider-card">
+         <div class="slider-content">
+           <div class="slider-img">
+            <img src="img/photos/blackbackground.jpg" alt="">
+           </div>
+           <div class="slider-details">
+             <div class="name">Seth Rogen</div>
+             <div class="character">Pumbaa</div>
+           </div>
+           <div class="desc">
+            <p>Pumbaa is a major character in Disney's 1994 animated feature film The Lion King and the deuteragonist of the 2004 film The Lion King 1½. He is a gluttonous warthog and the best friend of Timon. Most animals are wary and dismissive of Pumbaa due to his pungent odor, but he remains happy-go-lucky by following a philosophy called Hakuna Matata. He helps Simba to take over the Pride Lands and after a battle of the Pride Rock, he enters Simba's inner circle as the member of his family.</p>
+           </div>
+         </div>
+        </div>
+        <div class="slider-card">
+         <div class="slider-content">
+           <div class="slider-img">
+            <img src="img/photos/blackbackground.jpg" alt="">
+           </div>
+           <div class="slider-details">
+             <div class="name">John Oliver</div>
+             <div class="character">Zazu</div>
+           </div>
+           <div class="desc">
+            <p>Zazu is a major character in Disney's 1994 animated feature film, The Lion King. He is an uptight, red-billed hornbill that served as majordomo and royal advisor to the Pride Lands monarchy. Zazu is charged with upholding order within the kingdom, though he is rarely taken seriously due to his diminutive size and fragile temper. Zazu is happy upon hearing the news that Simba is alive. He takes a part in the battle for the Pride Rock, and after it, he becomes Simba's royal adviser. </p>
+           </div>
+         </div>
+        </div>
+      </div>
+    </div>
+    <div class="slider-button">
+      <label for="one" class=" active one"></label>
+      <label for="two" class="two"></label>
+    </div>
+  </div>
+</div>
+
+
+ <!--FOOTER-->    
+    <!--flexbox-->   
+    <div class="footer-container" style="margin-top: -4px;">
+      <footer>
+          <!--main footer-->
+          <section class="footer">
+              <div class="footer-item">
+                  <h2 class="footer-title">
+                      Map
+                  </h2>
+                  <ul class="item-list">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="characters.html">Characters</a></li>
+                      <li><a href="cast.html" class="active">Cast</a></li>
+                      <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Tickets</a></li>
+                  </ul>
+              </div>
+              <div class="footer-item">
+                  <h2 class="footer-title">
+                      Entertainment
+                  </h2>
+                  <ul class="item-list">
+                      <li><a href="gallery.html">Gallery</a></li>
+                      <li><a href="music.html">Music</a></li>
+                      <li><a href="movies.html">Movies</a></li>
+                      <!--<li class="underline"><a href="">The Lion King Store</a></li>-->
+                  </ul>
+              </div>
+              <div class="footer-item">
+                  <h2 class="footer-title">
+                      Contact
+                  </h2>
+                  <ul class="item-list">
+                      <address>
+                       <li><a href="mailto:jim@rock.com">disney@thelionking.com</a><br></li>
+                       <li><a href="tel:+13115552368">Office: (311) 555-2368</a></li>
+                       <li>Box 567, Disneyland, Orlando</li>
+                       <li>USA</li>
+                      </address>
+                  </ul>
+              </div>
+              <div class="footer-item">
+                  <h2 class="footer-title">Stay Updated</h2>
+                  <p class="footer-subtitle">Subscribe to our newsletter to get our latest news.</p>
+                  <form>
+                    <input type="email" name="email" placeholder="Enter email address">
+                    <button class="btn-subscribe" type="button">Subscribe</button>
+                  </form>
+                </div>
+              </section>
+
+              <!--footer social media icons-->
+              <section class="footer-social-media">
+                  <ul class="footer-social-media-list">
+                      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                      <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                  </ul>
+              </section>
+
+              <!--footer legal-->
+              <section class="footer-legal">
+                  <ul class="footer-legal-list">
+                      <li class="underline"><a href="privacy-policy.html">Privacy Policy</a></li>
+                      <li class="underline"><a href="terms-of-use.html">Terms of Use</a></li>
+                      <li class="underline"><a href="#">TO BE CONTINUED...</a></li>
+                  </ul>
+              </section>  
+              <!--footer disney logo-->
+              <section class="footer-logo">
+                  <ul class="footer-logo-disney">
+                      <li class="copy-logo">&copy;2021&nbsp<small class="logo">Disney</small></li>
+                  </ul>
+              </section>
+      </footer>   
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    </body>
+</html>

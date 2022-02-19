@@ -1,0 +1,181 @@
+#body {
+    background-color: var(--black-smoke);
+}
+
+
+/********** TITLE **********/
+
+.title-music {
+    color: var(--polar-bear);
+    text-align: center; 
+    margin-top: 150px;
+    font-family: 'Lion King';
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+/********** MUSIC PLAYER **********/
+
+.wrapper-intro {
+    background-color: var(--black-city-smoke);
+    padding: 5px;
+}
+
+.subtitle-music {
+    color: var(--polar-bear);
+    text-align: center; 
+    font-family: 'Lion King';
+    font-size: 2rem;
+    margin: 40px 0px 40px 0px;
+}
+
+.soundtrack-img {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+ .music-list {
+    width: 70%;
+    margin: 0 auto 100px;
+}
+
+.list-player {
+    text-align: center;
+    list-style-position: inside;
+    padding: 0px;
+}
+
+.song {
+    color: var(--polar-bear);
+    font-size: 1.3rem;
+    font-family: 'Cinzel';
+    padding: 20px;
+}
+
+.box-one {
+    padding: 20px;
+    background-color: var(--heart-red);
+}
+
+.box-two {
+    padding: 20px;
+    background-color: var(--bloody-red);
+}
+
+/* AUDIO */
+
+/* panel */
+
+audio::-webkit-media-controls-panel {
+    background-color: var(--black-city-smoke);
+}
+
+/* play button */
+
+audio::-webkit-media-controls-play-button {
+    background-color: var(--grey-passion);
+    border-radius: 50%;
+}
+  
+/* play button hover */
+
+audio::-webkit-media-controls-play-button:hover {
+    background-color: var(--mandarin);
+}
+
+/* timeline */
+
+audio::-webkit-media-controls-timeline {
+    background-color: var(--dirty-red);
+    border-radius: 65px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: var(--black-city-smoke);
+  }
+
+/* current time display */
+
+audio::-webkit-media-controls-current-time-display {
+    color: var(--polar-bear);
+}
+
+/* remaining time display */
+
+audio::-webkit-media-controls-time-remaining-display {
+    color: var(--polar-bear);
+}
+
+/* mute button */
+
+audio::-webkit-media-controls-mute-button {
+    background-color: var(--mandarin);
+    border-radius: 50%;
+}
+
+/* volume slider */
+
+audio::-webkit-media-controls-volume-slider {
+    background-color: var(--mandarin);
+    border-radius: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/********** FOOTER **********/
+
+.footer-container {
+    margin-top: 20px;
+}
+
+/*********** RESPONSIVE VIEW ***********/
+
+/********** SMALL SCREEN **********/
+
+@media only screen and (min-width: 375px) and (max-width: 765px) {
+
+    /* title */
+
+    .title-music {
+        margin-top: 50px;
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+ 
+    /* music player */
+
+    .music-list {
+        width: 95%;
+    }
+
+    .soundtrack-img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .subtitle-music {
+        font-size: 1.3rem;
+        margin: 40px 0px 40px 0px;
+    }
+
+    .song {
+        font-size: 1rem;
+    }
+
+    /* footer */
+    .footer-container {
+        margin-top: -50px;
+    }
+}
+
+
+/********** LARGE SCREEN **********/
+
+@media screen and (min-width: 1400px) {
+    .music-list {
+      max-width: 50%;
+    }
+  }

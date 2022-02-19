@@ -1,0 +1,51 @@
+/********** DISPLAY **********/
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+}
+
+.container-display {
+    margin-top: 200px;
+    width: 50%;
+    color: var(--polar-bear);
+    margin-bottom: 200px;
+}
+
+.display-title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.display-text {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/********** RESPONSIVE VIEW **********/
+
+/********** SMALL SCREEN **********/
+
+@media only screen and (min-width: 375px) and (max-width: 765px) {
+
+    .container-display {
+        margin-top: 150px;
+        width: 50%;
+        color: var(--polar-bear);
+        margin-bottom: 80px;
+    }
+    
+    .display-title {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+    .display-text {
+        margin-top: 20px;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+}
